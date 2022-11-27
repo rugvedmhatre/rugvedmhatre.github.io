@@ -1,8 +1,8 @@
 main:
   - title: "Projects"
     url: /projects/
-  - title: "Courses"
-    url: /courses/
+  - title: "Blog"
+    url: /blog/
   - title: "CV"
     url: /assets/rugved-cv.pdf
   - title: "About"
