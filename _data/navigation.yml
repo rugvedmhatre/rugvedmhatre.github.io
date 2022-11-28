@@ -3,7 +3,7 @@ main:
     url: /projects/
   - title: "Courses"
     url: /courses/
+  - title: "Blog"
+    url: /journal/
   - title: "CV"
     url: /assets/rugved-cv.pdf
-  - title: "About"
-    url: /about/
