@@ -1,3 +1,3 @@
-## rugvedmhatre.github.io
+# Rugved Portfolio
 
-Personal portfolio website.
+https://rugvedmhatre.github.io/
