@@ -1,6 +1,6 @@
 ---
 title: "Single Digit BCD Adder"
-date: 2020-09-30T18:30:00+05:30
+date: 2018-09-30T18:30:00+05:30
 ---
 
 The following video was created by me to document Single Digit BCD Adder experiment in Digital Circuit Design course:
