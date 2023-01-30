@@ -24,7 +24,7 @@ The fast paced life in Mumbai has made me find speed in everyday things. Be it s
 
 - [Handwritten Digit Recognizer](https://github.com/rugvedmhatre/handwritten-digit-recognizer)
     
-    Implemented a neural network using NumPy arrays to recognize handwritten digits in MNIST dataset.[[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#handwritten-digit-recognizer)
+    Implemented a neural network using NumPy arrays to recognize handwritten digits in MNIST dataset. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#handwritten-digit-recognizer)
 
 - [Pong Game](https://github.com/rugvedmhatre/pong)
 
