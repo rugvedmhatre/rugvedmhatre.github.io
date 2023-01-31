@@ -1,5 +1,5 @@
 ---
-title: "Texas Instruments IICDC 2019 Business Video Submission"
+title: "Texas Instruments IICDC 2019 Business Video"
 date: 2020-10-01T18:30:00+05:30
 ---
 
