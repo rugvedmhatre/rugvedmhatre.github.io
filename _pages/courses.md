@@ -5,7 +5,7 @@ title: "Courses"
 
 List of Coursera courses I have completed:
 
-1. [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Torronto
+1. [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Toronto
 2. [Deep Learning Specialization](https://coursera.org/share/c868e8bdd693dbc70f2ce28d26c48516) by DeepLearning.AI
 3. [Mathematics for Machine Learning](https://coursera.org/share/6614b5baf3e0eab86c7f264a852da529) by Imperial College London
 4. [Algorithmic Toolbox Course](https://coursera.org/share/fb967b8237b1cc1a087240cb4931fa0e) by UC San Diego
