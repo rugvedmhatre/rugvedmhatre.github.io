@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Rugved Mhatre"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Staff Consultant @Oracle"
+  bio    : "MS CE @NYU"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
