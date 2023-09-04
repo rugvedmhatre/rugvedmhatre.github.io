@@ -8,14 +8,12 @@ author_profile: true
 
 Hey there! :wave:
 
-I'm Rugved, a DevOps engineer at Oracle, Mumbai. 
+I'm Rugved, a Masters in Computer Engineering Student at NYU.
 
-The fast paced life in Mumbai has made me find speed in everyday things. Be it speeding up my codes or enjoying motorsports.
-
-## I'm Currently Working On...
-- improving the performance of our CI/CD pipelines by refactoring our codebase using Python
-- researching for an NLP Model to speed up the manual process of classifying code errors based on testing reports
-- developing a self-healing infrastructure that monitors and resolves server issues faster
+## I'm Currently Studying...
+- Machine Learning
+- Data Structures and Algorithms
+- Computer Systems Architecture
 
 ## Here are a few things I have worked on...
 - [Autonomous Vehicle in CARLA](https://github.com/rugvedmhatre/autonomous-vehicle)
@@ -32,4 +30,4 @@ The fast paced life in Mumbai has made me find speed in everyday things. Be it s
 
 ## We can get in touch on...
 - :hash: [Twitter](https://twitter.com/rugs_mhatre) - If you've got a short question or message, please Tweet/DM at [@rugs_mhatre](https://twitter.com/rugs_mhatre) and I'll get back to you asap...
-- :email: [Email](mailto:rugvedmhatre98@gmail.com) - If it's a longer thing, or you don't want it to be a public tweet, feel free to email me...
+- :email: [Email](mailto:rrm9598@nyu.edu) - If it's a longer thing, or you don't want it to be a public tweet, feel free to email me...
