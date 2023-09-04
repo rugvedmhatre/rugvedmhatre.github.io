@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rugved Mhatre
-email: rugvedmhatre98@gmail.com
+email: rrm9598@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Developer | DevOps | Machine Learning | Computer Vision
+  Software Developer | DevOps | Machine Learning | Computer Vision | NYU
 twitter_username: rugs_mhatre
 github_username: rugvedmhatre
 minimal_mistakes_skin: default
@@ -63,7 +63,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:rugvedmhatre98@gmail.com"
+      url: "mailto:rrm9598@nyu.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rugvedmhatre"
