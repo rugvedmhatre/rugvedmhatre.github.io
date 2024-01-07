@@ -8,14 +8,22 @@ author_profile: true
 
 Hey there! :wave:
 
-I'm Rugved, a Masters in Computer Engineering Student at NYU.
+I'm Rugved, a passionate Computer Engineering enthusiast currently pursuing my Masters at New York University (NYU) set to graduate in May 2025.
+
+With a robust background of over two years in DevOps at Oracle and a Bachelor's degree in Electronics Engineering from the University of Mumbai, my journey in technology has been dynamic and invigorating.
+
+I'm excited to share my experiences, insights, and explorations here!
 
 ## I'm Currently Studying...
-- Machine Learning
-- Data Structures and Algorithms
-- Computer Systems Architecture
+- Advanced Machine Learning
+- Deep Learning
+- Parallel and Customized Computer Architecture
 
 ## Here are a few things I have worked on...
+- [Predictive Analysis of Diabetes within the PIMA Indian Population](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Presentation.pdf)
+
+    Leveraging machine learning techniques, the study delves into the analysis of a comprehensive dataset, investigating correlations and patterns to enhance predictive accuracy. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#predictive-analysis-of-diabetes)
+
 - [Autonomous Vehicle in CARLA](https://github.com/rugvedmhatre/autonomous-vehicle)
     
     Simulated a visual perception model to segment the drivable surface from the captured image, and identify lane markings and traffic signs. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#autonomous-vehicle-simulation)

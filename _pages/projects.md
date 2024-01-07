@@ -6,6 +6,18 @@ permalink: /projects/
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects-header.png)
 {: .full}
 
+# Predictive Analysis of Diabetes
+
+This project, conducted as part of the NYU Data Science bootcamp, focuses on predictive analysis within the PIMA Indian population, specifically aiming to predict the occurrence of diabetes. 
+
+Leveraging machine learning techniques, the study delves into the analysis of a comprehensive dataset, investigating correlations and patterns to enhance predictive accuracy. 
+
+Employing a K-Nearest Neighbors (KNN) model as a foundational approach, the project explores avenues for improved modeling and feature engineering to better predict diabetes occurrences within this demographic. 
+
+Ultimately, the goal is to contribute to healthcare solutions and strategies tailored to address diabetes prevalence among the PIMA community.
+
+[Checkout the code here...](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Analysis.ipynb)
+
 # Autonomous Vehicle Simulation
 
 Using CARLA simulator, captured a dataset using the camera and ran a semantic segmentation model.
@@ -40,3 +52,13 @@ Implementing all these complex procedures, I created a Pong Game with three user
 3. Game Over Screen - The player that reaches 5 points first wins the game. On this screen the result is declared and the user is given a choice to restart the game or quit to main menu.
 
 [Checkout the code here...](https://github.com/rugvedmhatre/pong/blob/main/PONG.ASM)
+
+# Other Projects
+
+- [Support Vector Machine Classifier](https://github.com/rugvedmhatre/SVM-Classifier)
+- [Single Cycle MIPS Simulator in C++](https://github.com/rugvedmhatre/MIPS-Simulator)
+- [MIPS 5-Stage Pipeline Simulator in C++](https://github.com/rugvedmhatre/MIPS-Pipeline-Simulator)
+- [Two-Level Cache Simulator in C++](https://github.com/rugvedmhatre/Cache-Simulator)
+- [Virtual Memory Simulator in C++](https://github.com/rugvedmhatre/Virtual-Memory-Simulator)
+- [Branch Predictor Simulator in C++](https://github.com/rugvedmhatre/Branch-Predictor)
+- [Tomasulo's Algorithm Simulator in C++](https://github.com/rugvedmhatre/Tomasulos-Algorithm)
