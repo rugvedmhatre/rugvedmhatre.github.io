@@ -5,6 +5,10 @@ toc: true
 toc_label: "Notes"
 ---
 
+These are my notes on Introduction to Self Driving Cars course on Coursera. It is instructed by professors from the University of Toronto.
+
+*Note: The images present in this post are from the course presentations*
+
 # Taxonomy of Driving
 
 Driving Task of an autonomous driving vehicle includes:
