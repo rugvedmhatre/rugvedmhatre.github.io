@@ -43,7 +43,7 @@ So if someone from your network tries to access Google, it will only see the Glo
 
 IP addresses decide which device the data is sent to. However, the **Port Number** decides which application the data is sent to. For eg. on your computer you have Chrome and WhatsApp open, the port number is the one which decides whether the image that was sent to your IP address was for Chrome or for WhatsApp.
 
-There are around $2^{16}$ port number present for each modern device. However, some ports are already assigned. For eg. port 80 is assigned for HTTP. Port number 0 - 1023 are reserved ports. 1024 - 49152 are registered for various applications. The remaining ones are available for the user.
+There are around \\(2^{16}\\) port number present for each modern device. However, some ports are already assigned. For eg. port 80 is assigned for HTTP. Port number 0 - 1023 are reserved ports. 1024 - 49152 are registered for various applications. The remaining ones are available for the user.
 
 # Connections
 
@@ -151,7 +151,7 @@ Transport layers also calculates the checksums for packets to ensure packet inte
 Timers are also present in this layer. If a packet is not acknowledged, it understands that it has been lost and retransmits it.
 Each packets have unique sequence numbers which allows the transport layer to generate a complete data from the packets.
     
-    **User Datagram Protocol (UDP)**: Here data may or may not be delivered, and data may change and data may not be in order. It is a connectionless protocol. UDP uses checksum, but doesn’t do anything about it. A header of 8 bytes is added to the data in UDP. This header contains the source port number (2 bytes), destination port number (2 bytes), length of the datagram (2 bytes), checksum (2 bytes). The complete packet size is $2^{16}$ bytes. Therefore size of data is $2^{16}-8$ bytes. UDP is faster than TCP. Use cases: Video conferencing apps, Gaming, etc.
+    **User Datagram Protocol (UDP)**: Here data may or may not be delivered, and data may change and data may not be in order. It is a connectionless protocol. UDP uses checksum, but doesn’t do anything about it. A header of 8 bytes is added to the data in UDP. This header contains the source port number (2 bytes), destination port number (2 bytes), length of the datagram (2 bytes), checksum (2 bytes). The complete packet size is \\(2^{16}\\) bytes. Therefore size of data is \\(2^{16}-8\\) bytes. UDP is faster than TCP. Use cases: Video conferencing apps, Gaming, etc.
     
     **Transmission Control Protocol (TCP)**: Application layer sends raw data, and TCP segments this data and divides into chunks and adds headers. It may also collect the data from network layer. It is used in HTTP, SMTP. When data does not arrive, it works on retransmission. And maintains the order of the data using sequence numbers. This is connection-oriented protocol. It has error control and congestion control. TCP is a full duplex connection. The packets also have acknowledgement numbers.
     
@@ -180,7 +180,7 @@ Algorithms like Bellman-Fords, Djikstra, etc are used in routing. They can find 
     
     IETF (Internet Engineering Task Force). They assign IP addresses based on region and ISPs. There are a few reserved addresses. eg. 127.0.0.1 is reserved for local host. This is also called loopback address i.e. a process can connect to its own device using this IP address.
     
-    IPV6 has $2^{128}$ addresses. However, it is not backwards compatible. Hence it is still not majorly in use, as it would require an upgrade of all ISPs and other hardware.
+    IPV6 has \\(2^{128}\\) addresses. However, it is not backwards compatible. Hence it is still not majorly in use, as it would require an upgrade of all ISPs and other hardware.
     
     Middleboxes: These devices interact with the IP packets. Examples:
     
@@ -202,7 +202,7 @@ In a packet, the header is of 20 bytes. It has IP version, length, identificatio
 
 # Types of Server Architecture
 
-- Client-Server Architecture: A client sends a ****************request**************** to the server, and the server sends a ****************response**************** to the clients request.
+- Client-Server Architecture: A client sends a **request** to the server, and the server sends a **response** to the clients request.
 - Peer-to-Peer Architecture: It is a decentralised network. eg. BitTorrent
 
 # DNS (Domain Name System)
