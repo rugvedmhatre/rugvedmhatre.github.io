@@ -17,7 +17,3 @@ title: "Courses"
 - [Data Structures and Algorithms Specialization](https://coursera.org/share/ec57860825e721372c891bdd55e3dd98) by University of California, San Diego
 - [Python for Everybody Specialization](https://coursera.org/share/b2979b81489289b820f2923699083bf4) by University of Michigan
 - [Excel Skills for Business Specialization](https://coursera.org/share/128042cffb361820190f7e7834c2517a) by Macquarie University
-
-## YouTube
-
-- [Kunal Kushwaha's Git and GitHub Tutorial]({{ site.url }}{{ site.baseurl }}/git-tutorial-notes/)
