@@ -6,6 +6,21 @@ permalink: /projects/
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects-header.png)
 {: .full}
 
+# Continual Learning for Autonomous Vehicles
+The Continual Learning framework for autonomous vehicles presents an innovative approach to enhancing the adaptability and efficiency of self-driving systems. This project focuses on predicting steering angles by leveraging image data captured in real-time. Through rigorous experimentation, the framework explores several strategies including Elastic Weight Consolidation, Experience Replay, and Temporal Consistency Regularization. By continuously learning from new experiences while retaining past knowledge, this framework aims to enable autonomous vehicles to navigate diverse environments with improved accuracy and robustness, thus advancing the capabilities of next-generation transportation systems.
+
+[Checkout the code here...](https://github.com/rugvedmhatre/Continual-Learning-for-Autonomous-Vehicles/blob/main/notebooks/balanced_replay_approach.ipynb)
+
+# ResNet
+The project focuses on implementing a ResNet-34 model to classify images within the CIFAR-10 dataset, achieving an impressive test accuracy of 95.37%. Employing a range of strategies such as dropout layers and learning rate schedulers, the model's performance is optimized for robust classification across diverse image categories. By leveraging the depth and architectural innovations of the ResNet framework, coupled with meticulous training methodologies, this project showcases the efficacy of deep learning approaches in image classification tasks, demonstrating potential applications across various domains.
+
+[Checkout the code here...](https://github.com/rugvedmhatre/ResNet/blob/main/Notebooks/resnet-34-dropout.ipynb)
+
+# Vector Processor Simulator
+The Python-based Vector Processor Functional Simulator (VMIPS) project offers a comprehensive platform for simulating the functionality of a vector processor. Leveraging Python's versatility and ease of use, this simulator enables users to emulate the operations and behavior of a vector processor architecture efficiently. By providing a high-level representation of vector processing tasks, developers can debug and optimize their algorithms without the need for physical hardware. With features tailored for performance analysis, debugging, and experimentation, the VMIPS Functional Simulator serves as a valuable tool for both educational and research purposes in the field of computer architecture and parallel computing.
+
+[Checkout the code here...](https://github.com/rugvedmhatre/Vector-Simulator/blob/main/skeleton.py)
+
 # Predictive Analysis of Diabetes
 
 This project, conducted as part of the NYU Data Science bootcamp, focuses on predictive analysis within the PIMA Indian population, specifically aiming to predict the occurrence of diabetes. 
