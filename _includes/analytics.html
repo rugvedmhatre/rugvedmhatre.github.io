@@ -6,4 +6,11 @@
   gtag('js', new Date());
 
   gtag('config', '{% raw %}{{ site.analytics.google.tracking_id }}{% endraw %}');
+
+  gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied'
+});
 </script>
