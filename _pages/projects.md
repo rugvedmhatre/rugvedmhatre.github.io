@@ -3,77 +3,50 @@ title: "Projects"
 permalink: /projects/
 ---
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/projects-header.png)
+![[projects-header-1]]({{ site.url }}{{ site.baseurl }}/assets/images/projects-header-1.png)
 {: .full}
 
-# Continual Learning for Autonomous Vehicles
-The Continual Learning framework for autonomous vehicles presents an innovative approach to enhancing the adaptability and efficiency of self-driving systems. This project focuses on predicting steering angles by leveraging image data captured in real-time. Through rigorous experimentation, the framework explores several strategies including Elastic Weight Consolidation, Experience Replay, and Temporal Consistency Regularization. By continuously learning from new experiences while retaining past knowledge, this framework aims to enable autonomous vehicles to navigate diverse environments with improved accuracy and robustness, thus advancing the capabilities of next-generation transportation systems.
+## Multimodal Sentiment Analysis
+This project delves into different methodologies for Multimodal Sentiment Analysis, with a focus on fusion techniques that integrate information from various modalities to improve sentiment analysis performance, as well as the architectures employing them. We explore Early Fusion, Late Fusion, Tensor Fusion, and their variants, alongside approaches like Multimodal Factorization Model (MFM), Multimodal Cyclic Translation Network (MCTN), and Multimodal Transformer (MulT). Each approach presents unique advantages and challenges, offering a range of tools to address the intricacies of sentiment analysis in multimodal data. Through a thorough review and analysis of these methodologies, this project aims to illuminate the current state-of-the-art in MSA.
+[[Checkout the code here...]](https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis)
 
-[Checkout the code here...](https://github.com/rugvedmhatre/Continual-Learning-for-Autonomous-Vehicles/blob/main/notebooks/balanced_replay_approach.ipynb)
+## Continual Learning for Autonomous Vehicles
+This project focuses on predicting steering angles by leveraging image data captured in real-time. Through rigorous experimentation, the framework explores several continual learning strategies including Elastic Weight Consolidation, Experience Replay, and Temporal Consistency Regularization. By continuously learning from new experiences while retaining past knowledge, this framework aims to enable autonomous vehicles to navigate diverse environments with improved accuracy and robustness, thus advancing the capabilities of next-generation transportation systems.
+[[Checkout the code here...]](https://github.com/rugvedmhatre/Continual-Learning-for-Autonomous-Vehicles)
 
-# ResNet
-The project focuses on implementing a ResNet-34 model to classify images within the CIFAR-10 dataset, achieving an impressive test accuracy of 95.37%. Employing a range of strategies such as dropout layers and learning rate schedulers, the model's performance is optimized for robust classification across diverse image categories. By leveraging the depth and architectural innovations of the ResNet framework, coupled with meticulous training methodologies, this project showcases the efficacy of deep learning approaches in image classification tasks, demonstrating potential applications across various domains.
+![[projects-header-2]]({{ site.url }}{{ site.baseurl }}/assets/images/projects-header-2.png)
+{: .full}
 
-[Checkout the code here...](https://github.com/rugvedmhatre/ResNet/blob/main/Notebooks/resnet-34-dropout.ipynb)
+## Vector Processor Simulator
+The Python-based Vector Processor (VMIPS) functional and performance simulator offers a comprehensive platform for simulating the functionality and evaluation of the performace of a vector processor. The simulator is rigorously tested on assembly code for machine learning calculations - dot product, matrix multiplications and convolution.
+[[Checkout the code here...]](https://github.com/rugvedmhatre/Vector-Timing-Simulator)
 
-# Vector Processor Simulator
-The Python-based Vector Processor Functional Simulator (VMIPS) project offers a comprehensive platform for simulating the functionality of a vector processor. Leveraging Python's versatility and ease of use, this simulator enables users to emulate the operations and behavior of a vector processor architecture efficiently. By providing a high-level representation of vector processing tasks, developers can debug and optimize their algorithms without the need for physical hardware. With features tailored for performance analysis, debugging, and experimentation, the VMIPS Functional Simulator serves as a valuable tool for both educational and research purposes in the field of computer architecture and parallel computing.
+## ResNets
+This project delves into the exploration of ResNet models trained for image classification on the CIFAR-10 dataset. Through meticulous fine-tuning of hyperparameters, experimentation with various ResNet depths, and implementation of strategies such as dropout layers and learning rate schedulers, the project achieved significant test accuracy of 95.37%.
+[[Checkout the code here...]](https://github.com/rugvedmhatre/ResNet/blob/main/Notebooks/resnet-34-dropout.ipynb)
 
-[Checkout the code here...](https://github.com/rugvedmhatre/Vector-Simulator/blob/main/skeleton.py)
+![[projects-header-3]]({{ site.url }}{{ site.baseurl }}/assets/images/projects-header-3.png)
+{: .full}
 
-# Predictive Analysis of Diabetes
+## Semantic Image Segmentation for Autonomous Vehicles
+This project focuses on semantic image segmentation tailored for autonomous vehicles, with a primary objective of detecting and segmenting various elements crucial for safe navigation, including drivable surfaces, vehicles, curbs, traffic signs, and sky. Leveraging a U-Net model, the project implements advanced deep learning techniques to accurately classify and segment objects within captured images. Specifically trained on the CARLA dataset, the U-Net model achieves an impressive accuracy rate of 96%, signifying its robustness and effectiveness in accurately identifying and delineating essential elements for autonomous vehicle perception.
+[[Checkout the code here...]](https://github.com/rugvedmhatre/autonomous-vehicle/blob/main/image-semantic-segmentation.ipynb)
 
-This project, conducted as part of the NYU Data Science bootcamp, focuses on predictive analysis within the PIMA Indian population, specifically aiming to predict the occurrence of diabetes. 
+## Predictive Analysis of Diabetes
+This project, conducted as part of the NYU Data Science bootcamp, focuses on predictive analysis within the PIMA Indian population, specifically aiming to predict the occurrence of diabetes. Employing a K-Nearest Neighbors (KNN) model as a foundational approach, the project explores avenues for improved modeling and feature engineering to better predict diabetes occurrences within this demographic.
+[[Checkout the code here...]](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Analysis.ipynb)
 
-Leveraging machine learning techniques, the study delves into the analysis of a comprehensive dataset, investigating correlations and patterns to enhance predictive accuracy. 
 
-Employing a K-Nearest Neighbors (KNN) model as a foundational approach, the project explores avenues for improved modeling and feature engineering to better predict diabetes occurrences within this demographic. 
-
-Ultimately, the goal is to contribute to healthcare solutions and strategies tailored to address diabetes prevalence among the PIMA community.
-
-[Checkout the code here...](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Analysis.ipynb)
-
-# Autonomous Vehicle Simulation
-
-Using CARLA simulator, captured a dataset using the camera and ran a semantic segmentation model.
-
-Using U-Nets, I was able to segment the images with **96%** accuracy.
-
-Further, I used the drivable surface segment from the output as a region of interest for the Lane Detection Algorithm.
-
-Using Canny Edge Detection and Hough Line Transform, was able to extract the lanes from the image.
-
-Finally, trained a traffic sign image classifier model to identify traffic signs in the environment.
-
-[Checkout the code here...](https://github.com/rugvedmhatre/autonomous-vehicle/blob/main/image-semantic-segmentation.ipynb)
-
-# Handwritten Digit Recognizer
-
-Using Python NumPy arrays, I developed a neural network and implemented the activation functions, forward propagation procedures and back propagation procedures.
-
-Downloaded the MNIST dataset from [Kaggle](https://www.kaggle.com/competitions/digit-recognizer/data) and trained a model with an accuracy of **87%**.
-
-[Checkout the code here...](https://github.com/rugvedmhatre/handwritten-digit-recognizer/blob/main/Handwritten%20Digit%20Recognizer%20using%20Neural%20Network.ipynb)
-
-# Pong Game
-
-I was always interested to play old arcade 8-bit games. When I learned Assembly Programming, I decided to develop an old arcade game in it.
-
-I researched for interrupts to display pixels on the screen, read system clock and read keyboard inputs. 
-
-Implementing all these complex procedures, I created a Pong Game with three user screens:
-1. Main Menu - Here the user can select which mode one wants to play. There are three options - single player mode, multiplayer mode and exit game option.
-2. Game Screen - Depending on the user's choice, the game will start in single player mode or a two player mode.
-3. Game Over Screen - The player that reaches 5 points first wins the game. On this screen the result is declared and the user is given a choice to restart the game or quit to main menu.
-
-[Checkout the code here...](https://github.com/rugvedmhatre/pong/blob/main/PONG.ASM)
-
-# Other Projects
-
+## Other Projects
+### Machine Learning
 - [Support Vector Machine Classifier](https://github.com/rugvedmhatre/SVM-Classifier)
+- [Multilayer Perceptron to classify MNIST dataset in NumPy](https://github.com/rugvedmhatre/handwritten-digit-recognizer/blob/main/Handwritten%20Digit%20Recognizer%20using%20Neural%20Network.ipynb)
+
+### Computer Architecture
 - [Single Cycle MIPS Simulator in C++](https://github.com/rugvedmhatre/MIPS-Simulator)
 - [MIPS 5-Stage Pipeline Simulator in C++](https://github.com/rugvedmhatre/MIPS-Pipeline-Simulator)
 - [Two-Level Cache Simulator in C++](https://github.com/rugvedmhatre/Cache-Simulator)
 - [Virtual Memory Simulator in C++](https://github.com/rugvedmhatre/Virtual-Memory-Simulator)
 - [Branch Predictor Simulator in C++](https://github.com/rugvedmhatre/Branch-Predictor)
 - [Tomasulo's Algorithm Simulator in C++](https://github.com/rugvedmhatre/Tomasulos-Algorithm)
+- [Pong Game in x86 Assembly](https://github.com/rugvedmhatre/pong)
