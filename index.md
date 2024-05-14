@@ -26,9 +26,9 @@ I'm excited to share my experiences, insights, and explorations here!
 
 - [Vector Processor Simulator](https://github.com/rugvedmhatre/Vector-Timing-Simulator) - A Python-based Vector Processor (VMIPS) functional and performance simulator evaluated on dot product, fully connected layer, and convolutional layer test bench. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#vector-processor-simulator)
 
-- [ResNets](https://github.com/rugvedmhatre/ResNet) - Explored ResNet Models trained to classify images on CIFAR-10 dataset. Finetuned hyperparameters, experimented with ResNet depths and strategies like dropout layers and learning rate schedulers acheiving a test accuracy of 95.37%. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#resnet)
+- [ResNets](https://github.com/rugvedmhatre/ResNet) - Explored ResNet Models trained to classify images on CIFAR-10 dataset. Finetuned hyperparameters, experimented with ResNet depths and strategies like dropout layers and learning rate schedulers acheiving a test accuracy of 95.37%. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#resnets)
 
-- [Semantic Image Segmentation using U-Net for Autonomous Vehicles](https://github.com/rugvedmhatre/autonomous-vehicle) - Simulated a visual perception model to segment the drivable surface from the captured image, and identify lane markings and traffic signs. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#autonomous-vehicle-simulation)
+- [Semantic Image Segmentation for Autonomous Vehicles](https://github.com/rugvedmhatre/autonomous-vehicle) - This project utilizes semantic image segmentation to enhance autonomous vehicle perception, accurately identifying and segmenting critical elements like drivable surfaces. By leveraging a U-Net model trained on the CARLA dataset, the project achieves an impressive 96% accuracy [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#semantic-image-segmentation-for-autonomous-vehicles)
 
 ## We can get in touch on...
 - :necktie: [LinkedIn](https://www.linkedin.com/in/rugved-mhatre/) - If you've got a short question or would like to connect, drop a message and I'll get back to you soon.
