@@ -2,6 +2,7 @@
 title: "Research Paper Review: Vector Vs. Superscalar and VLIW Architectures for Embedded Multimedia Benchmarks"
 date: 2024-01-31T18:31:00+05:30
 toc: true
+category: computer-architecture
 ---
 
 This report highlights VIRAM architecture’s efficiency for embedded multimedia applications, utilizing EEMBC benchmarks. With compact code, low power consumption, and reduced design complexity, VIRAM demonstrates superior performance, positioning it as the optimal choice over VLIW and Superscalar processors.

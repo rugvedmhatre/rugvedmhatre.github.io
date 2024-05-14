@@ -2,6 +2,7 @@
 title: "Notes: Vector Processors"
 date: 2024-01-31T18:30:00+05:30
 toc: true
+category: computer-architecture
 ---
 
 This report delves into the fundamentals of Vector Processors. The report outlines the architecture, functionality, challenges, performance enhancements, as well as fallacies and pitfalls of vector processors.

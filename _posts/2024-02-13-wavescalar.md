@@ -2,6 +2,7 @@
 title: "Research Paper Review: WaveScalar"
 date: 2024-02-13T18:31:00+05:30
 toc: true
+category: computer-architecture
 ---
 
 The paper presents WaveScalar, an alternative to superscalar design, a dataflow ISA and execution model designed for scalable, simple, high-performance processors. It provides traditional memory semantics and can run programs in any language without sacrificing parallelism. WaveCache, a key component of WaveScalar, minimizes long-wire, and high-latency communication by keeping data and computation closer. The paper assesses a simulated implementation across SPEC and Mediabench applications, showing a substantial 2-7 times speed improvement over an aggressively configured superscalar design, with potential for further enhancements.

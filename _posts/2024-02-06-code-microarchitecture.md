@@ -2,6 +2,7 @@
 title: "Research Paper Review: Overcoming the Limitations of Conventional Vector Processors"
 date: 2024-02-06T18:30:00+05:30
 toc: true
+category: computer-architecture
 ---
 
 The paper showcases CODE, a scalable vector microarchitecture that enhances performance and tackles issues in vector processors such as the complexity and size of centralized vector register files, challenges in implementing precise exceptions, and the high cost of on-chip memory systems with high bandwidth and low access latency.

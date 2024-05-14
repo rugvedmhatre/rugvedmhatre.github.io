@@ -2,6 +2,7 @@
 title: "Research Paper Review: A \"New Ara\" for Vector Computing: An Open Source Highly Efficient RISC-V V1.0 Vector Processor Design"
 date: 2024-02-06T18:31:00+05:30
 toc: true
+category: computer-architecture
 ---
 
 The RISC-V V extension has recently reached the 1.0-Frozen Status. This paper introduces the initial open-source implementation, explores its influence on lane-based micro-architecture design, and offers insights into the performance-oriented design of coupled scalar-vector processors.
