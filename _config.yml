@@ -16,7 +16,7 @@
 title: Rugved Mhatre
 email: rugved.mhatre+web@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Developer, DevOps, Machine Learning, NYU, Oracle
+  Deep Learning, Machine Learning, Computer Architecture, DevOps, NYU, Oracle
 twitter_username: rugs_mhatre
 github_username: rugvedmhatre
 minimal_mistakes_skin: default
@@ -61,45 +61,39 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "MS. Computer Engineering @NYU Ex-Oracle"
   links:
-    - label: "New York, US"
+    - label: "New York City"
       icon: "fas fa-fw fa-map-marker-alt"
       url: ""
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:rugved.mhatre+web@nyu.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rugved-mhatre/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rugvedmhatre"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/rugs_mhatre"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/rugved-mhatre/"
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/rugved-mhatre/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rugvedmhatre"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/rugs_mhatre"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/rugved-mhatre/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/therugvedmhatre"
 
 atom_feed:
   hide: true
-
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-E7SEGQBFPF"
-    anonymize_ip: false # default
 
 defaults:
   # _posts
