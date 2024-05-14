@@ -8,46 +8,28 @@ author_profile: true
 
 Hey there! :wave:
 
-I'm Rugved, a passionate Computer Engineering enthusiast currently pursuing my Masters at New York University (NYU) set to graduate in May 2025.
+I'm Rugved, a passionate Computer Engineering and Deep Learning enthusiast currently pursuing my Masters at New York University (NYU) set to graduate in May 2025.
 
 With a robust background of over two years in DevOps at Oracle and a Bachelor's degree in Electronics Engineering from the University of Mumbai, my journey in technology has been dynamic and invigorating.
 
 I'm excited to share my experiences, insights, and explorations here!
 
 ## I'm Currently Studying...
-- Advanced Machine Learning
-- Deep Learning
-- Parallel and Customized Computer Architecture
+- Advanced Hardware Design
+- High Performance Machine Learning
+- Real-time Embedded Systems
 
 ## Here are a few things I have worked on...
-- [Continual Learning for Autonomous Vehicles](https://github.com/rugvedmhatre/Continual-Learning-for-Autonomous-Vehicles/tree/main)
+- [Multimodal Sentiment Analysis](https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis) - This project explores different methodologies, focusing on fusion techniques that integrate information from three modalities (audio, language, vision) to enhance sentiment analysis performance, and the various architectures that employ them. [[Read More]]({{ site.url }}{{ site.baseurl }}/projects/#multimodal-sentiment-analysis)
 
-    Applying the continual learning framework to Autonomous Vehicle Driving setting: predicting steering angles based on the images captured. Experimented with various approaches - Elastic Weight Consolidation, Experience Replay and Temporal Consistency Regularization. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#continual-learning-for-autonomous-vehicles)
+- [Continual Learning for Autonomous Vehicles](https://github.com/rugvedmhatre/Continual-Learning-for-Autonomous-Vehicles) - Applying the continual learning framework to Autonomous Vehicle setting: predicting steering angles based on the captured images. Experimented with various approaches - Elastic Weight Consolidation, Experience Replay and Temporal Consistency Regularization. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#continual-learning-for-autonomous-vehicles)
 
-- [ResNet-34 on CIFAR-10 Dataset](https://github.com/rugvedmhatre/ResNet)
+- [Vector Processor Simulator](https://github.com/rugvedmhatre/Vector-Timing-Simulator) - A Python-based Vector Processor (VMIPS) functional and performance simulator evaluated on dot product, fully connected layer, and convolutional layer test bench. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#vector-processor-simulator)
 
-    ResNet Model trained to classify images on CIFAR-10 dataset with a test accuracy of 95.37%. Implementing strategies like dropout layers, learning rate schedulers and more. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#resnet)
+- [ResNets](https://github.com/rugvedmhatre/ResNet) - Explored ResNet Models trained to classify images on CIFAR-10 dataset. Finetuned hyperparameters, experimented with ResNet depths and strategies like dropout layers and learning rate schedulers acheiving a test accuracy of 95.37%. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#resnet)
 
-- [Vector Processor Simulator](https://github.com/rugvedmhatre/Vector-Simulator)
-
-    A Python-based Vector Processor (VMIPS) Functional Simulator. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#vector-processor-simulator)
-
-- [Predictive Analysis of Diabetes within the PIMA Indian Population](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Presentation.pdf)
-
-    Leveraging machine learning techniques, the study delves into the analysis of a comprehensive dataset, investigating correlations and patterns to enhance predictive accuracy. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#predictive-analysis-of-diabetes)
-
-- [Semantic Image Segmentation using U-Net for Autonomous Vehicles](https://github.com/rugvedmhatre/autonomous-vehicle)
-    
-    Simulated a visual perception model to segment the drivable surface from the captured image, and identify lane markings and traffic signs. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#autonomous-vehicle-simulation)
-
-- [Handwritten Digit Recognizer using simple Neural Network](https://github.com/rugvedmhatre/handwritten-digit-recognizer)
-    
-    Implemented a neural network using NumPy arrays to recognize handwritten digits in MNIST dataset. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#handwritten-digit-recognizer)
-
-- [Pong Game in x86 Assembly](https://github.com/rugvedmhatre/pong)
-
-    Created a childhood-favourite Pong Game using x86 Assembly Language, playing against the computer in single-player mode, or with someone in two-player mode. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#pong-game)
+- [Semantic Image Segmentation using U-Net for Autonomous Vehicles](https://github.com/rugvedmhatre/autonomous-vehicle) - Simulated a visual perception model to segment the drivable surface from the captured image, and identify lane markings and traffic signs. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#autonomous-vehicle-simulation)
 
 ## We can get in touch on...
-- :hash: [Twitter](https://twitter.com/rugs_mhatre) - If you've got a short question or message, please Tweet/DM at [@rugs_mhatre](https://twitter.com/rugs_mhatre) and I'll get back to you asap...
-- :email: [Email](mailto:rugved.mhatre+web@nyu.edu) - If it's a longer thing, or you don't want it to be a public tweet, feel free to email me...
+- :necktie: [LinkedIn](https://www.linkedin.com/in/rugved-mhatre/) - If you've got a short question or would like to connect, drop a message and I'll get back to you soon.
+- :email: [Email](mailto:rugved.mhatre+web@nyu.edu) - If it's a longer thing, feel free to email me!
