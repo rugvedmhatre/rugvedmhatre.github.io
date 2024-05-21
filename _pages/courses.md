@@ -10,10 +10,12 @@ title: "Courses"
 - Data Structures and Algorithms by [Yong Liu](https://engineering.nyu.edu/faculty/yong-liu)
 
 ### Spring 2024
-- Advanced Machine Learning by [Anna Choromanska](https://engineering.nyu.edu/faculty/anna-choromanska)
-- Deep Learning by [Chinmay Hegde](https://engineering.nyu.edu/faculty/chinmay-hegde)
-- Parallel and Customized Computer Architecture by [Brandon Reagen](https://engineering.nyu.edu/faculty/brandon-reagen) 
-<!-- [[Readings]]({{ site.url }}{{ site.baseurl }}/categories/#computer-architecture) -->
+- [Advanced Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/aml-course/) by Anna Choromanska
+- [Deep Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/deep-learning-nyu-course/) by Chinmay Hegde
+- [Parallel and Customized Computer Architecture]({{ site.url }}{{ site.baseurl }}/computer-architecture/pcca-course) by Brandon Reagen
+
+### Summer 2024 (Teaching)
+- [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/ml-summer-school/course-overview/) by Rugved Mhatre, Akshath Mahajan
 
 ## Coursera
 - [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Toronto [[Course Notes]]({{ site.url }}{{ site.baseurl }}/introduction-to-self-driving-cars-course-notes/)

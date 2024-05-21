@@ -14,6 +14,9 @@ With a robust background of over two years in DevOps at Oracle and a Bachelor's 
 
 I'm excited to share my experiences, insights, and explorations here!
 
+<!-- ## I'm currently Teaching...
+- [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/ml-summer-school/course-overview/) -->
+
 ## I'm Currently Studying...
 - Advanced Hardware Design
 - High Performance Machine Learning
