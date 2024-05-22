@@ -39,6 +39,11 @@ This project, conducted as part of the NYU Data Science bootcamp, focuses on pre
 
 ## Other Projects
 ### Machine Learning
+- [Deep Convolutional GAN](https://github.com/rugvedmhatre/Deep-Convolutional-GAN)
+- [Visual Backpropagation](https://github.com/rugvedmhatre/VisualBackProp)
+- [Sentiment Analysis](https://github.com/rugvedmhatre/Sentiment-Analysis)
+- [Vision Transformer Classifier](https://github.com/rugvedmhatre/Vision-Transformers)
+- [Deep Neural Network Classifier](https://github.com/rugvedmhatre/Fashion-MNIST-Classifier)
 - [Support Vector Machine Classifier](https://github.com/rugvedmhatre/SVM-Classifier)
 - [Multilayer Perceptron to classify MNIST dataset in NumPy](https://github.com/rugvedmhatre/handwritten-digit-recognizer/blob/main/Handwritten%20Digit%20Recognizer%20using%20Neural%20Network.ipynb)
 
