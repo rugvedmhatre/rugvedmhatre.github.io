@@ -4,6 +4,6 @@ main:
   - title: "Courses"
     url: /courses/
   - title: "Blog"
-    url: /journal/
+    url: /posts/
   - title: "CV"
     url: /assets/rugved-cv.pdf
