@@ -17,15 +17,15 @@ header:
 
 ## Course Overview
 
-| **Day 1** | Introduction to Machine Learning | Slides | Notes | Demos |
-| **Day 2** | Linear Regression | Slides | Notes | Demos |
-| **Day 3** | Overfitting and Regularization | Slides | Notes | Demos |
-| **Day 4** | Linear Classification | Slides | Notes | Demos |
-| **Day 5** | Mini-Project | Slides | Notes | Demos |
-| **Day 6** | Neural Networks | Slides | Notes | Demos |
-| **Day 7** | Convolutional Neural Networks | Slides | Notes | Demos |
-| **Day 8** | Further with ML/DL | Slides | Notes | Demos |
-| **Day 9** | Final Presentation | Slides | Notes | Demos |
+| **Day 1** | Introduction to Machine Learning | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-1/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day1) |
+| **Day 2** | Linear Regression | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-2/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day2) |
+| **Day 3** | Overfitting and Regularization | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-3/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day3) |
+| **Day 4** | Linear Classification | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-4/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day4) |
+| **Day 5** | Mini-Project | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-5/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day5) |
+| **Day 6** | Neural Networks | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-6/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day6) |
+| **Day 7** | Convolutional Neural Networks | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-7/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day7) |
+| **Day 8** | Further with ML/DL | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-8/) | - |
+| **Day 9** | Final Presentation | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-9/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day9) |
 
 ## Instructors
 
