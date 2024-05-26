@@ -19,7 +19,7 @@ I'm excited to share my experiences, insights, and explorations here!
 
 ## I'm Currently Studying...
 - Advanced Hardware Design
-- High Performance Machine Learning
+- Machine Learning for Cyber-security
 - Real-time Embedded Systems
 
 ## Here are a few things I have worked on...
