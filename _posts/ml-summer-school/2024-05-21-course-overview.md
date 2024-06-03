@@ -17,15 +17,15 @@ header:
 
 ## Course Overview
 
-| **Day 1** | Introduction to Machine Learning | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-1/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day1) |
-| **Day 2** | Linear Regression | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-2/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day2) |
-| **Day 3** | Overfitting and Regularization | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-3/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day3) |
-| **Day 4** | Linear Classification | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-4/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day4) |
-| **Day 5** | Mini-Project | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-5/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day5) |
-| **Day 6** | Neural Networks | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-6/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day6) |
-| **Day 7** | Convolutional Neural Networks | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-7/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day7) |
+| **Day 1** | Introduction to Machine Learning | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-1/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-1/#demos) |
+| **Day 2** | Linear Regression | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-2/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-2/#demos) |
+| **Day 3** | Overfitting and Regularization | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-3/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-3/#demos) |
+| **Day 4** | Linear Classification | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-4/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-4/#demos) |
+| **Day 5** | Mini-Project | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-5/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-5/#starter-notebook) |
+| **Day 6** | Neural Networks | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-6/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-6/#demos) |
+| **Day 7** | Convolutional Neural Networks | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-7/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-7/#demos) |
 | **Day 8** | Further with ML/DL | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-8/) | - |
-| **Day 9** | Final Presentation | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-9/) | [Demos](https://github.com/rugvedmhatre/NYU-ML-2024-Session-1/tree/main/day9) |
+| **Day 9** | Final Presentation | Slides | [Notes]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-9/) | [Demos]({{ site.url }}{{ site.baseurl }}/ml-summer-school/day-9/#demos) |
 
 ## Instructors
 
