@@ -1,6 +1,9 @@
 ---
 permalink: /courses/
 title: "Courses"
+seo_title: Rugved Mhatre | Courses
+seo_description: A concise overview of the courses I have studied from NYU and Coursera, and instructed at NYU.
+excerpt: A concise overview of the courses I have studied from NYU and Coursera, and instructed at NYU.
 ---
 
 ## NYU

@@ -10,6 +10,9 @@ share: false
 related: false
 header:
     image: /assets/images/blog-images/nyu-header.jpg
+seo_title: Rugved Mhatre | NYU Machine Learning Summer School
+excerpt: Discover comprehensive notes from the ML Summer School held at NYU Tandon, covering key concepts, practical applications, and advanced techniques in Machine Learning and Deep Learning.
+seo_description: Discover comprehensive notes from the ML Summer School held at NYU Tandon, covering key concepts, practical applications, and advanced techniques in Machine Learning and Deep Learning.
 ---
 *NYU K12 STEM Education: Machine Learning Course Webiste*
 

@@ -14,9 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rugved Mhatre
+tagline: "Rugved Mhatre | Deep Learning, ML, Computer Architecture, DevOps | NYU, Oracle"
 email: rugved.mhatre+web@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Deep Learning, Machine Learning, Computer Architecture, DevOps, NYU, Oracle
+  "Explore Rugved Mhatre's portfolio showcasing advanced projects in Deep Learning, Machine Learning, and Computer Architecture. Gain insights from his Master's experience at NYU, and discover innovative research and practical applications in the field of AI and technology. Dive into a journey of academic excellence and cutting-edge technological advancements."
+url: "https://rugvedmhatre.github.io"
 twitter_username: rugs_mhatre
 github_username: rugvedmhatre
 minimal_mistakes_skin: default
@@ -55,6 +57,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 author:
   name   : "Rugved Mhatre"

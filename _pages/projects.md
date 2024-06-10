@@ -1,6 +1,9 @@
 ---
 title: "Projects"
 permalink: /projects/
+seo_title: Rugved Mhatre | Projects
+seo_description: Explore projects on Machine Learning, Deep Learning, Computer Architecture.
+excerpt: Explore projects on Machine Learning, Deep Learning, Computer Architecture.
 ---
 
 ![[projects-header-1]]({{ site.url }}{{ site.baseurl }}/assets/images/projects-header-1.png)
