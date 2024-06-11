@@ -18,7 +18,7 @@ excerpt: A concise overview of the courses I have studied from NYU and Coursera,
 - [Parallel and Customized Computer Architecture]({{ site.url }}{{ site.baseurl }}/computer-architecture/pcca-course) by Brandon Reagen
 
 ### Summer 2024 (Teaching)
-- [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/ml-summer-school/) by Rugved Mhatre, Akshath Mahajan
+- [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/ml-summer-school/course-overview/) by Rugved Mhatre, Akshath Mahajan
 
 ## Coursera
 - [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Toronto [[Course Notes]]({{ site.url }}{{ site.baseurl }}/introduction-to-self-driving-cars-course-notes/)
