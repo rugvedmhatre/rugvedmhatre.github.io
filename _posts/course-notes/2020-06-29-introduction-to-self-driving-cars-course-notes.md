@@ -3,6 +3,7 @@ title: "Course Notes: Introduction to Self Driving Cars"
 date: 2020-06-29T18:30:00+05:30
 toc: true
 toc_label: "Notes"
+category: course-notes
 ---
 
 These are my notes on Introduction to Self Driving Cars course on Coursera. It is instructed by professors from the University of Toronto.

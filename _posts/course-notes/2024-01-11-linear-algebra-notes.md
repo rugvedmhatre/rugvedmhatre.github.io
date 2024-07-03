@@ -1,6 +1,7 @@
 ---
 title: "Course Notes: Linear Algebra"
 date: 2024-01-11T18:30:00+05:30
+category: course-notes
 ---
 
 Within this PDF, you'll find my comprehensive notes covering the "Linear Algebra for Machine Learning and Data Science" Course offered by DeepLearning.AI

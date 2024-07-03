@@ -3,6 +3,7 @@ title: "Course Notes: Computer Networking"
 date: 2023-02-22T18:30:00+05:30
 toc: true
 toc_label: "Notes"
+category: course-notes
 ---
 
 This is the summary of what I learned from Kunal Kushwaha's YouTube Course on Computer Networking.

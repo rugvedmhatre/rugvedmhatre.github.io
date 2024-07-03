@@ -3,6 +3,7 @@ title: "Course Notes: Learning How to Learn"
 date: 2020-07-21T18:30:00+05:30
 toc: true
 toc_label: "Notes"
+category: course-notes
 ---
 
 These are my notes on the Coursera Course - Learning How to Learn. The course is instructed by Dr. Barbara Oakley and Terrence Sejnowski.
