@@ -14,13 +14,13 @@ With a robust background of over two years in DevOps at Oracle and a Bachelor's 
 
 I'm excited to share my experiences, insights, and explorations here!
 
-<!-- ## I'm currently Teaching...
-- [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/ml-summer-school/course-overview/) -->
+## I'm currently Teaching...
+- [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/)
 
-## I'm Currently Studying...
+<!-- ## I'm Currently Studying...
 - Advanced Hardware Design
 - Machine Learning for Cyber-security
-- Real-time Embedded Systems
+- Real-time Embedded Systems -->
 
 ## Here are a few things I have worked on...
 - [Multimodal Sentiment Analysis](https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis) - This project explores different methodologies, focusing on fusion techniques that integrate information from three modalities (audio, language, vision) to enhance sentiment analysis performance, and the various architectures that employ them. [[Read More]]({{ site.url }}{{ site.baseurl }}/projects/#multimodal-sentiment-analysis)
