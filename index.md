@@ -18,7 +18,7 @@ I'm excited to share my experiences, insights, and explorations here!
 - [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/)
 
 <!-- ## I'm Currently Studying...
-- Advanced Hardware Design
+- High Performance Machine Learning
 - Machine Learning for Cyber-security
 - Real-time Embedded Systems -->
 
