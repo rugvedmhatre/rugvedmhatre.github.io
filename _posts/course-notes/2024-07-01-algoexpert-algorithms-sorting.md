@@ -1,5 +1,5 @@
 ---
-title: "Course Notes: AlgoExpert - Algorithm Questions - Sorting"
+title: "Course Notes: AlgoExpert - Sorting Algorithms"
 date: 2024-07-01T18:30:00+05:30
 toc: true
 toc_label: "Notes"
@@ -8,7 +8,7 @@ category: course-notes
 
 *In this post, I summarize the various sorting algorithms discussed in __AlgoExpert - Algorithm Questions Course__ and implement them in Python.*
 
-# Sorting Algorithms
+[Code Repository](https://github.com/rugvedmhatre/algorithms-practice?tab=readme-ov-file#sorting)
 
 ## Bubble Sort
 
