@@ -20,6 +20,11 @@ excerpt: A concise overview of the courses I have studied from NYU and Coursera,
 ### Summer 2024 (Teaching)
 - [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/) by Rugved Mhatre, Akshath Mahajan
 
+### Fall 2024
+- High Performance Machine Learning by [Parijat Dube](https://engineering.nyu.edu/faculty/parijat-dube) and [Zehra Sura](https://www.linkedin.com/in/zehra-sura-8480771/)
+- Advanced Topics in Computer Vision by [David Fouhey](https://cs.nyu.edu/~fouhey/)
+- Real-time Embedded Systems by [Matthew Campisi](https://engineering.nyu.edu/faculty/matthew-campisi)
+
 ## Coursera
 - [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Toronto [[Course Notes]]({{ site.url }}{{ site.baseurl }}/course-notes/introduction-to-self-driving-cars-course-notes/)
 - [Deep Learning Specialization](https://coursera.org/share/c868e8bdd693dbc70f2ce28d26c48516) by DeepLearning.AI
