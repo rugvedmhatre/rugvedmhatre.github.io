@@ -15,9 +15,7 @@ With a robust background of over two years in DevOps at Oracle and a Bachelor's 
 I'm excited to share my experiences, insights, and explorations here!
 
 ## I'm Currently Studying...
-- High Performance Machine Learning
-- Advanced Topics In Computer Vision
-- Real-time Embedded Systems
+- Data Science for Business from NYU Stern School of Business
 
 ## I have previously taught...
 - [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/)
