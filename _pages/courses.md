@@ -8,9 +8,9 @@ excerpt: A concise overview of the courses I have studied from NYU and Coursera,
 
 ## NYU
 ### Fall 2023
-- Machine Learning by [Anna Choromanska](https://engineering.nyu.edu/faculty/anna-choromanska)
-- Computing Systems Architecture by [Brandon Reagen](https://engineering.nyu.edu/faculty/brandon-reagen)
-- Data Structures and Algorithms by [Yong Liu](https://engineering.nyu.edu/faculty/yong-liu)
+- [Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/ml-course/) by Anna Choromanska
+- [Computing Systems Architecture]({{ site.url }}{{ site.baseurl }}/computer-architecture/csa-course) by Brandon Reagen
+- [Data Structures and Algorithms]({{ site.url }}{{ site.baseurl }}/dsa-course) by Yong Liu
 
 ### Spring 2024
 - [Advanced Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/aml-course/) by Anna Choromanska
@@ -24,6 +24,9 @@ excerpt: A concise overview of the courses I have studied from NYU and Coursera,
 - High Performance Machine Learning by [Parijat Dube](https://engineering.nyu.edu/faculty/parijat-dube) and [Zehra Sura](https://www.linkedin.com/in/zehra-sura-8480771/)
 - Advanced Topics in Computer Vision by [David Fouhey](https://cs.nyu.edu/~fouhey/)
 - Real-time Embedded Systems by [Matthew Campisi](https://engineering.nyu.edu/faculty/matthew-campisi)
+
+### Spring 2025
+- Data Science for Business by [Chris Volinsky](https://www.stern.nyu.edu/faculty/bio/chris-volinsky)
 
 ## Coursera
 - [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Toronto [[Course Notes]]({{ site.url }}{{ site.baseurl }}/course-notes/introduction-to-self-driving-cars-course-notes/)
