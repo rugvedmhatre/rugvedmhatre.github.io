@@ -21,7 +21,7 @@ excerpt: A concise overview of the courses I have studied from NYU and Coursera,
 - [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/) by Rugved Mhatre, Akshath Mahajan
 
 ### Fall 2024
-- High Performance Machine Learning by [Parijat Dube](https://engineering.nyu.edu/faculty/parijat-dube) and [Zehra Sura](https://www.linkedin.com/in/zehra-sura-8480771/)
+- [High Performance Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/hpml-course/) by Parijat Dube and Zehra Sura
 - Advanced Topics in Computer Vision by [David Fouhey](https://cs.nyu.edu/~fouhey/)
 - Real-time Embedded Systems by [Matthew Campisi](https://engineering.nyu.edu/faculty/matthew-campisi)
 
