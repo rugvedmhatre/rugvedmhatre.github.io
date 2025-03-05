@@ -134,7 +134,131 @@ __Types of Supervised Learning Models__
 
 ## Exploratory Data Analysis
 
-<!-- To be continued... -->
+Understanding your data goes hand and hand with the business problem you're trying to solve.
+
+__Finding Data__
+
+- In business critical systems, the main challenge is data cleaning. The systems are often set up for collection of data, as they are for running a business.
+- We can find data online, but companies do not share critical data, and if they do, it is via a rate limited API. To collect online data, we can use parsers, scrapers, and other tools. BeautifulSoup is a python module that can be used to scrape websites. We could also use GenAI to get data.
+- We cane rely on curated data science websites like UCI repository. The challenge in this case is that the dataset is sanitized and already much analyzed.
+
+__Reading Data in Python__
+
+Ideally the data that we will access will come to us in a nice Excel or CSV. However, this is not true in real life, we need to deal with database accesses, SQL or streaming data.
+
+Reading the data in CSV requires the `pandas` module and the `pd.read_csv()` function, with the file name or the URL of the data.
+
+__Exploring Data through EDA__
+
+- Study and understand each feature
+- Know the feature types and distributions
+- Identify outliers
+- Consider data transformations
+- Identify missing data
+- Visualize the data
+
+### Feature Types
+
+- __Numeric:__ Features where calculations are meaningful
+- __Categorical:__ Features where we cannot do meaningful calculations. They can be multivalued, or might have numeric labels. Also check how the categories are ordered:
+    - Ordinal: Income (A: 0-50k, B: 50k-100k, C: 100k-500k, D: >500k)
+    - Nominal: Eye color (A: Blue, B: Brown, C: Green, D: Other)
+- __Binary:__ Only two possible values - 0 and 1. (it is a special case of categorical feature type)
+- __Date Stamps:__ Always check the date format. They can be considered as a numeric if not treated carefully. (Python uses `datetime` library)
+
+Things can get messy very easily. For example, data about names, SSNs, credit ratings, zip codes, text, images or sound. You need to make sure that the software recognizes the right data type.
+
+__Manipulating data in Python__
+
+- Renaming variables (`.rename`)
+- Summaries of variables (`.info` and `.describe`)
+- Exploring data (`.head` and `.tail`)
+- Viewing slices of data (`.loc` and `.iloc`)
+- Categorical variables (`.value_counts`)
+- Merging and splitting attributes (`.concat`, `.split`)
+- Also can use sampling if the data is too large (`.sample`)
+
+__Encoding Categorical Variables__
+
+For example, we have categorical data for diet types: vegan, vegetarian, pescatarian and omnivore. We can recode this variable as *k* binary (0, 1) indicator variables (also called as dummy variables or one-hot encoding). Note that: we only need *k - 1* dummies to encode the information.
+
+For some methods (like regression) you must encode with *k - 1* dummies to avoid an error.
+
+| Category | isVegan | isVegetarian | isPescatarian |
+| --- | --- | --- | --- |
+| Vegan | 1 | 0 | 0 |
+| Vegetarian | 0 | 1 | 0 |
+| Pescatarian | 0 | 0 | 1 |
+
+If all values are 0, then it belongs to Omnivore category.
+
+You can use the `pd.get_dummies(drop_first=True)` or `sklearn.preprocessing.OneHotEncoder(drop='first')` in Python.
+
+Another issue with dealing with categorical variables is that there can be too many levels, which can make the model complicated and messy. We may then want to transform the data only to the top levels and an 'others' category.
+
+### Outliers
+
+Outliers are observations that are far from the mean, and fall outside the range of most of the data.
+
+We can find outliers using summary tables, data visualization or simple data sorting.
+
+Outliers typically are attributable to one of the following causes: 
+
+- The measurement is observed, recorded or entered incorrectly (e.g. blood pressure = -50)
+- The measurement comes from a different set of population (e.g. age = 5 in a data about adults)
+- The measurement is correct, but represents a rare (chance) event (e.g. people with net worth of billions of dollars in a dataset about general population)
+
+Outliers should always be considered and inspected to see if they are "real" or some artifact of data collection.
+
+__To Remove or Not To Remove__
+
+- Outliers can have an outsize impact on analysis. You may choose to remove an outlier, even if it legitimate, just to avoid influence on the analysis.
+- You can choose a robust analysis technique like Decision Trees. Regression is sensitive to outliers.
+- Carefully assess data for legitimacy. If appears incorrect, remove it.
+- Do not blindly use the automated outlier-finding algorithms (like IQR rule)
+
+### Skewed Data
+
+Highly skewed data can be problematic in data science analysis, especially with regression models (linear and logistic). Such skewed data can obscure pattern and invalidate statistically tests. One way to resolve skewed datasets is by using log-scale, square roots, or binning.
+
+### Missing Data
+
+Data points that are not recorded or are absent in the dataset are missing datapoints. They can be represented as '.', 'NA', '-1', etc. (Python uses `NaN` for missing values)
+
+Reasons for missing data:
+- data entry errors
+- non-responses in surveys
+- system errors, etc.
+
+Missing data considerations:
+- How much is there?
+- Is it missing at random?
+- Is missing-ness important by itself?
+- How does the model handle it?
+
+Pandas functions - `isnull()` and `notnull()` are used to detect missing values.
+
+__Strategies for Missing Data__
+
+- Deletion Methods:
+    - Row deletion: remove the entire row if any value is NA
+    - Column deletion: delete features with high percentage of NA. (impact of analysis needs to evaluated, as it could be drastic)
+- Imputation Methods:
+    - Mean/Median/Mode Imputation: replace all the NAs with mean, median or mode of the feature
+    - Modeled Imputation: use algorithms like regression or k-nearest neighbours to predict and fill missing values
+- Interpolation: Give data points the average of the two observations surrounding it (relevant for time series)
+- Create a new category for NA
+
+It is important to evaluate how much influence does your strategy have on the final conclusions.
+
+Pandas functions - `dropna()` is used to drop rows or columns with missing values, `fillna()` is used to fill missing values with a specific value or method (mean, median or mode).
+
+ScikitLearn functions - `SimpleImputer()` applies basic imputation strategies and `IterativeImputer()` applies modelling based imputation.
+
+### Data Visualization
+
+
+ 
 
 ## References
 
