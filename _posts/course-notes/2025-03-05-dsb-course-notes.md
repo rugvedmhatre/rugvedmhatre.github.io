@@ -1,9 +1,12 @@
 ---
 title: "Course Notes: Data Science for Business"
-date: 2025-03-05T18:30:00+05:30
+date: 2025-03-06T18:30:00+05:30
 toc: true
 toc_label: "Notes"
 category: course-notes
+excerpt: Course notes on Data Science for Business course offered by New York University (NYU) Stern School of Business.
+seo_title: NYU Stern Data Science for Business Course Notes
+seo_description: Course notes on Data Science for Business course offered by New York University (NYU) Stern School of Business.
 ---
 
 ## What is Data Science?
@@ -257,8 +260,221 @@ ScikitLearn functions - `SimpleImputer()` applies basic imputation strategies an
 
 ### Data Visualization
 
+Looking carefully at the data is an important part of the exploratory process:
 
- 
+- to identify mistakes in collection/processing
+- to find violations of statistical assumptions
+- to observe patterns in the data
+
+Sometimes a good, simple visualization is all the "analysis" you need.
+
+However, data visualization is a challenging topic - very hard to do well - many design decisions to make. There are in-depth courses, that discuss the theories which cover things like - what do humans perceive well, how to use marks, colors, etc. Careful thought should be taken with the message you're trying to convey with your data.
+
+It is always best to start to simple with the basic building blocks of visualizations - histograms, boxplots, scatterplots.
+
+__Histograms__
+
+Histograms are probably the most used (and useful) way to present numerical data. They provide a quick view of the range, distribution shape, outliers and trends in the data.
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-images/dsb-course-notes/histogram_example.png" 
+alt="Figure 3: Data Visualization - Histogram">
+<figcaption><em>Figure 3: Data Visualization - Histogram</em></figcaption>
+</figure>
+
+The number of bins and bin-widths can have a role in the interpretation.
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-images/dsb-course-notes/histogram_example_2.png" 
+alt="Figure 4: Histogram with more bins">
+<figcaption><em>Figure 4: Histogram with more bins</em></figcaption>
+</figure>
+
+__Boxplots__
+
+A boxplot is another way of getting a quick visual clue of the key points of the data distribution. 
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-images/dsb-course-notes/boxplot.png" 
+alt="Figure 5: Data Visualization - Boxplot">
+<figcaption><em>Figure 5: Data Visualization - Boxplot</em></figcaption>
+</figure>
+
+__Multiple Variables__
+
+You can represent contingency tables using [stacked bars](https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_stacked.html), [side-by-side bars](https://matplotlib.org/stable/gallery/lines_bars_and_markers/barchart.html) or [standardized bars](https://www.geeksforgeeks.org/stacked-percentage-bar-plot-in-matplotlib/).
+
+Also, side by side boxplots allows you to compare numeric distributions across variables which are categorical.
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-images/dsb-course-notes/multiple_boxplot.png" 
+alt="Figure 6: Data Visualization - Multiple Boxplots">
+<figcaption><em>Figure 6: Data Visualization - Multiple Boxplots</em></figcaption>
+</figure>
+
+For multiple numeric variables, scatter plot is the standard tool. It can be used to display the relation between two variables. We can easily see if there is any correlation between the data points plotted on the x-axis and the y-axis, or we can even find any strange patterns in the data, identify outliers, etc.
+When you are dealing with overplotting, you can use "alpha blending" (i.e. transparency) or heatmaps.
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-images/dsb-course-notes/scatterplot.png" 
+alt="Figure 7: Data Visualization - Scatterplot">
+<figcaption><em>Figure 7: Data Visualization - Scatterplot</em></figcaption>
+</figure>
+
+__From Exploration to Model Fitting__
+
+Fitting data science models, follows the same basic structure:
+
+- Instantiate a model
+    ```python
+    from sklearn.linear_model import LinearRegression
+
+    model = LinearRegression()
+    ```
+- Identify X (predictors) and Y (target) and then create training and test sets.
+    ```python
+    from sklearn.model_selection import train_test_split
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+    ```
+- Use `.fit` to apply the model to the data
+    ```python
+    model.fit(X_train, y_train)
+    ```
+- Explore the outcomes of the model
+    ```python
+    y_pred = model.predict(X_test)
+    ```
+- Calculate model fit metrics
+    ```python
+    from sklearn.metrics import root_mean_squared_error    
+
+    rmse = root_mean_squared_error(y_test, y_pred)
+    ```
+
+We do this over and over again.
+
+## Decision Trees
+
+Decision trees are one of the most useful and interpretable ways to build a predictive, supervised machine learning model.
+
+There are very easy to interpret.
+
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/blog-images/dsb-course-notes/engineering-flowchart.jpeg" 
+alt="Figure 8: Decision Tree Example">
+<figcaption><em>Figure 8: Decision Tree Example</em></figcaption>
+</figure>
+
+- We start of with all the data. 
+- At each level, we create a rule that creates "branches" (typically 2). 
+- Each branch then can split independently. 
+- Each level is defined by a rule. 
+- Bottom level are called the "leaves". 
+- Each data point falls in one and only one leaf
+- Each leaf is defined by a set of rules that got us there
+- Each leaf gets labelled with the majority class for those that fell in the leaf.
+- Thus, new data can now be classified - every new instance goes to a single leaf.
+
+__Nodes__
+
+Numeric attributes are split at an "optimal" spot at the nodes
+
+__Leaves__
+
+Prediction for a new case is the majority class in the leaf node.
+
+__Class Probabilities__
+
+We can also assign a class probability to a new data point from the leaf node it falls into. Trees assign probabilities by looking at the proportion of the training labels that fell into each leaf node.
+
+__Probability Correction__
+
+\\[
+\text{Laplace Correction} = p(c) = \frac{n + 1}{N + 2}
+\\]
+
+Where \\(n\\) is the number of examples in the leaf belonging to the class, and \\(N\\) is the total number of cases.
+
+Laplace correction is often used in cases with small datasets, to offset the impact of "overfitting". 
+
+__Overfitting__
+
+The larger you build the tree, the more accurate it gets... on the training set. 😕
+
+Applying a tree against a test set allows us to determine the optimal size of the tree to maximize for generalization, and avoid overfitting.
+
+### Why Decision Trees?
+
+Trees are one of the most popular models for supervised classification. Trees are easy to understand (when small), easy to communicate to executives and non-technical stakeholders, and they work pretty well for a simple model.
+
+Trees are also computationally cheap for large datasets, can handle large sets of attributes easily, ignores irrelevant variables, handles missing data well, and doesn't make any distributional assumptions (compared to regression).
+
+### Growing a Tree
+
+There are two elements to a good split:
+- "purity" of the branches
+- "coverage" of the data
+
+__Measuring Impurity__
+
+The more homogeneous (consistent) a group is, the more pure it is. We measure purity with entropy:
+
+\\[
+\text{Entropy} = - p\_1 \log\_2(p\_1) - p\_2 \log\_2(p\_2)
+\\]
+
+Entropy is maximized when the classes are equally distributed, and the least when only one class exists in the sample at a time.
+_(Note: Entropy also extends to more than two classes)_
+
+\\[
+\text{Low Entropy} = \text{More Information}
+\\]
+
+__How do we use Entropy?__
+- A decrease in entropy means more information
+- We calculate entropy before and after the split
+- We evaluate the potential split by taking the overall entropy of the split (a weighted average of the two entropies).
+
+__Measuring Coverage__
+
+Entropy gives us a measure of how helpful a given leaf is in predicting the target. But we need an overall sense of the value of the split. We want splits that increase our overall information, not just carve off little areas with perfect entropy. We do this by measuring the overall improvement in entropy across the entire dataset for each split. 
+
+\\[
+\text{Information Gain} = \text{Impurity (parent)} - \text{Impurity (children)}
+\\]
+
+__Finding the Best Split__
+
+At each split we need to:
+- Find the optimal split point for each numeric attribute
+- Find the optimal split for any categorical attribute
+- Compare the information gain of those splits for each attribute
+- Pick the best one and split
+
+However, if we follow these rules, we can keep splitting and growing the tree until we have perfect purity or we find no splits that can add information.
+
+But we don't want to grow as far as we can. Fewer nodes are typically better, more comprehensible and more accurate. Test (hold-out) sets will guide us in finding the optimal tree size.
+
+Tree can also be interpreted geometrically - trees create rules that correspond to axis-parallel lines.
+
+__Information Gain for Insight__
+
+Each split of the decision tree results in information gain - decreasing entropy is information gain. We can assign the information gain to the attribute used for the split. Thus, information gain can give us a measure of **feature importance**.
+
+__Random Forests__
+
+Typically multiple trees (or forests) will outperform a single well-built tree. 
+
+Random Forests is a machine learning method that fits many different trees to a prediction problem - using random samples of rows and columns - and averaging the prediction across trees. This results in an improved predictive power, however, at the loss of interpretability.
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+```
+
+## Evaluating Models
+
+
 
 ## References
 
