@@ -474,6 +474,67 @@ from sklearn.ensemble import RandomForestClassifier
 
 ## Evaluating Models
 
+If we apply accuracy to trees built on the training set, the biggest tree will always be best. In fact, you can often build a tree with 100% accuracy on the training set. But the goal is to generalize to data we have not seen yet.
+
+We split the data into training and test sets, so that it provides a better estimate of model performance in the "real world" and optimize the value of model parameters (e.g. tree\_depth)
+
+We typically have to scale back on model complexity in order to improve generalization error.
+
+__Complexity vs. Error__
+
+This is one of the most important concepts of machine learning:
+- Models always get better (as measured on training set) with more data or more complexity
+- But need holdout data to optimize generalizability
+
+Overfitting: model is too complex: the model fits great on the training data but doesn't generalize to holdout data becuase it is "memorizing" the training data.
+
+Complexity parameters:
+- Tree Models: number of nodes, min. leaf size
+- Regression Models: number of features, degree of polynomial, interactions
+- Neural Networks: number of layers, complexity of functions
+
+### Cross Validation
+
+To get a better generalization error estimate, we need to account for the randomness of the split, by doing multiple splits. Cross-validation is one way to get around this.
+
+Cross Validation Algorithm:
+- Split data into \\(k\\) equal sets, called *folds*
+- Fit model with sets \\((1, \dots, k - 1)\\), measure performance on fold \\(k\\). Subsequently fit \\(k\\) times using each fold as a hold-out.
+- For each iteration, measure predictive performance, or the metric of interest
+
+```python
+from sklearn.model_selection import cross_val_score
+
+cross_val_score(model, X, y, scoring='accuracy', cv=5)
+```
+
+### Leave One Out Cross Validation (LOOCV)
+
+- Fit model on all but one data point
+- Predict on the single data point and measure error
+- Do that N times, once for each data point
+
+LOOCV is the best in terms of estimating true error. But it can be very time-consuming, not necessary or larger data sets.
+
+```python
+from sklearn.model_selection import LeaveOneOut, cross_val_score
+
+loo = LeaveOneOut()
+cross_val_score(model, X, y, scoring='accuracy', cv=loo)
+```
+
+### Validation Set
+
+- The test set serves two purposes: to find the best parameters and to estimate the out-of-sample error - so it is not really an "unbiased" estimate of error.
+- In some cases, it may be useful to create a third parition of the data.
+- This provides a truly untouched data set that gives the most accurate estimate of error
+- Process:
+    - Put aside a random 10%-20%
+    - Split remaining data as normal into training and validation sets
+    - Use training/validation to set parameters (e.g. optimal tree\_depth) and then simply apply to the holdout data
+
+## Evaluating Classification Models
+
 
 
 ## References
