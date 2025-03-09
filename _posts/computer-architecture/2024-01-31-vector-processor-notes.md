@@ -3,6 +3,9 @@ title: "Notes: Vector Processors"
 date: 2024-01-31T18:30:00+05:30
 toc: true
 category: computer-architecture
+excerpt: Notes on Vector Processors' Computer Architecture. 
+seo_title: What are Vector Processors? 
+seo_description: Notes on Vector Processors' Computer Architecture.
 ---
 
 This report delves into the fundamentals of Vector Processors. The report outlines the architecture, functionality, challenges, performance enhancements, as well as fallacies and pitfalls of vector processors.
