@@ -27,7 +27,7 @@ I'm excited to share my experiences, insights, and explorations here!
 
 - [Vector Processor Simulator](https://github.com/rugvedmhatre/Vector-Timing-Simulator) - A Python-based Vector Processor (VMIPS) functional and performance simulator evaluated on dot product, fully connected layer, and convolutional layer test bench. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#vector-processor-simulator)
 
-- [ResNets](https://github.com/rugvedmhatre/ResNet) - Explored ResNet Models trained to classify images on CIFAR-10 dataset. Finetuned hyperparameters, experimented with ResNet depths and strategies like dropout layers and learning rate schedulers acheiving a test accuracy of 95.37%. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#resnets)
+- [ResNets](https://github.com/rugvedmhatre/ResNet) - Explored ResNet Models trained to classify images on CIFAR-10 dataset. Finetuned hyperparameters, experimented with ResNet depths and strategies like dropout layers and learning rate schedulers achieving a test accuracy of 95.37%. [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#resnets)
 
 - [Semantic Image Segmentation for Autonomous Vehicles](https://github.com/rugvedmhatre/autonomous-vehicle) - This project utilizes semantic image segmentation to enhance autonomous vehicle perception, accurately identifying and segmenting critical elements like drivable surfaces. By leveraging a U-Net model trained on the CARLA dataset, the project achieves an impressive 96% accuracy [[Read more]]({{ site.url }}{{ site.baseurl }}/projects/#semantic-image-segmentation-for-autonomous-vehicles)
 
