@@ -59,5 +59,5 @@ To reinforce the theoretical knowledge gained, students will undertake a class p
 | [Characterizing and Optimizing End-to-End Systems for Private Inference]({{ site.url }}{{ site.baseurl }}/computer-architecture/cryptonite) |
 | [HAAC]({{ site.url }}{{ site.baseurl }}/computer-architecture/haac) |
 
-## Course Review
+## Review
 The "Parallel and Customized Computer Architecture" course by Prof. Brandon was the best course I took at NYU. Prof. Brandon is an outstanding teacher who made complex topics accessible and engaging. The course involved reading and discussing research papers, which was where the most significant learning occurred. These discussions were truly enlightening. The hands-on approach, particularly the semester-long project of developing a Vector Processor simulator, was the highlight, allowing us to apply theoretical knowledge practically. I highly recommend this course to anyone interested in learning the cutting-edge advancements in computer architecture.

@@ -30,9 +30,9 @@ This course is ideal for students interested in embedded systems, robotics, IoT,
 
 _Note: This is subject to change_
 
-- Homeworks (30%) - 4 assignments
-- 2 Exams (30%) - Open Notes
-- Final Project (40%)
+- Homeworks (4 assignments) - 30%
+- 2 Exams (open notes) - 30%
+- Final Project - 40%
 
 ## Review
 

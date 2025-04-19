@@ -2,8 +2,8 @@
 permalink: /courses/
 title: "Courses"
 seo_title: Rugved Mhatre | Courses
-seo_description: A concise overview of the courses I have studied from NYU and Coursera, and instructed at NYU.
-excerpt: A concise overview of the courses I have studied from NYU and Coursera, and instructed at NYU.
+seo_description: A concise overview of the courses I have studied from NYU and instructed at NYU.
+excerpt: A concise overview of the courses I have studied from NYU and instructed at NYU.
 ---
 
 ## NYU
@@ -22,11 +22,11 @@ excerpt: A concise overview of the courses I have studied from NYU and Coursera,
 
 ### Fall 2024
 - [High Performance Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/hpml-course/) by Parijat Dube and Zehra Sura
-- Advanced Topics in Computer Vision by [David Fouhey](https://cs.nyu.edu/~fouhey/)
-- Real-time Embedded Systems by [Matthew Campisi](https://engineering.nyu.edu/faculty/matthew-campisi)
+- [Advanced Topics in Computer Vision]({{ site.url }}{{ site.baseurl }}/machine-learning/acv-course/) by David Fouhey
+- [Real-time Embedded Systems]({{ site.url }}{{ site.baseurl }}/rtes-course/) by Matthew Campisi
 
 ### Spring 2025
-- Data Science for Business by [Chris Volinsky](https://www.stern.nyu.edu/faculty/bio/chris-volinsky)
+- [Data Science for Business]({{ site.url }}{{ site.baseurl }}/machine-learning/dsb-course/) by Chris Volinsky
 
 ## Coursera
 - [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Toronto [[Course Notes]]({{ site.url }}{{ site.baseurl }}/course-notes/introduction-to-self-driving-cars-course-notes/)

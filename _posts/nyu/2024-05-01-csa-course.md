@@ -24,7 +24,7 @@ The grade will be entirely determined by a series of 6 programming labs:
 - Branch Prediction simulator (15%)
 - Out-of-Order simulator (15%)
 
-## Course Review
+## Review
 The “Computing Systems Architecture” course by Prof. Brandon Reagen is an exceptional deep dive into the inner workings of modern computer systems. Prof. Brandon is an outstanding teacher who has a unique ability to make complex topics both accessible and engaging. His clear explanations and enthusiasm for the subject matter create an excellent learning environment.
 
 One of the course’s standout features is the hands-on labs, which are both challenging and rewarding. These labs simulate how data moves through computer architectures, offering a practical understanding of the concepts discussed in class. A solid grasp of C/C++ is essential for coding these labs, as they demand significant effort and problem-solving skills. However, the course assistants provide invaluable guidance to help students navigate these challenges successfully.

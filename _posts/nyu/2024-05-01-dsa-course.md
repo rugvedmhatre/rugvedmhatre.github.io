@@ -23,7 +23,7 @@ This course is ideal for students aiming to build a strong foundation in data st
 - Midterm Exam - 40%
 - Final Exam - 50%
 
-## Course Review
+## Review
 
 The Data Structures and Algorithms course offers a solid foundation for understanding the theoretical principles behind algorithms and data structures, making it ideal for students looking to gain a deep, conceptual understanding of the subject. However, the course is highly theoretical and does not include assignments focused on implementing the algorithms, which can make it challenging for students who prefer hands-on learning. For practical implementation, platforms like YouTube can be helpful supplementary resources.
 

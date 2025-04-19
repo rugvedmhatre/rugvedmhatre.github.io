@@ -19,10 +19,10 @@ This course explores High-Performance Computing (HPC) and its role in accelerati
 
 *Note: This is subject to change*
 
-- Homework (30%) - 5 homework assignments
-- Final Project (30%)
-- Final Exam (30%)
-- Quizzes (10%)
+- Homework (5 assignments) - 30%
+- Final Project - 30%
+- Final Exam - 30%
+- Quizzes - 10%
 
 ## Course Notes
 

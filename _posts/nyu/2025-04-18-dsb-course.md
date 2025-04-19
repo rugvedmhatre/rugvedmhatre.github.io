@@ -29,10 +29,10 @@ The course culminates in a team-based term project. Students choose a business p
 
 _Note: This is subject to change_
 
-- Homework (30%) - 4 python assignments
-- Quiz (30%) - 2 in-class quizes
-- Term Data Project (35%)
-- Participation/Attendance (5%)
+- Homework (4 assignments) - 30%
+- Quiz (2 in-class) - 30%
+- Term Data Project - 35%
+- Participation/Attendance - 5%
 
 _Note: As per NYU Stern policy, no more than 35% of students in core classes will receive an A or A-. Final grade cutoffs are adjusted based on overall class performance. Most students typically receive grades in the B range, with 5% or fewer earning a C+ or lower._
 
