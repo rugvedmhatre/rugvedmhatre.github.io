@@ -6,7 +6,7 @@ toc_label: "Notes"
 category: course-notes
 ---
 
-These are my notes on [High Performance Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/hpml-course/) course.
+_These are my notes on the "[High Performance Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning/hpml-course/)" course (ECE-GY 9143) offered at NYU Tandon by [Parijat Dube](https://engineering.nyu.edu/faculty/parijat-dube) and [Zehra Sura](https://www.linkedin.com/in/zehra-sura-8480771/)._
 
 ## Introduction to Benchmarking
 
