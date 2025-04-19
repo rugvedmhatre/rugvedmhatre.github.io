@@ -9,6 +9,8 @@ seo_title: NYU Stern Data Science for Business Course Notes
 seo_description: Course notes on Data Science for Business course offered by New York University (NYU) Stern School of Business.
 ---
 
+_These are my notes on the "[Data Science for Business]({{ site.url }}{{ site.baseurl }}/machine-learning/dsb-course/)" course (TECH-GB 2336) offered at NYU Stern by [Chris Volinsky](https://www.stern.nyu.edu/faculty/bio/chris-volinsky)._
+
 ## What is Data Science?
 
 The science of extracting knowledge and insights from data.
