@@ -28,6 +28,9 @@ excerpt: A concise overview of the courses I have studied from NYU and instructe
 ### Spring 2025
 - [Data Science for Business]({{ site.url }}{{ site.baseurl }}/machine-learning/dsb-course/) by Chris Volinsky
 
+### Summer 2025 (Teaching)
+- [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/) by Rugved Mhatre, Akshath Mahajan
+
 ## Coursera
 - [Self-Driving Car Specialization](https://coursera.org/share/609c0d5507fe57fa663671f148ec92a9) by University of Toronto [[Course Notes]]({{ site.url }}{{ site.baseurl }}/course-notes/introduction-to-self-driving-cars-course-notes/)
 - [Deep Learning Specialization](https://coursera.org/share/c868e8bdd693dbc70f2ce28d26c48516) by DeepLearning.AI

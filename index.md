@@ -8,16 +8,13 @@ author_profile: true
 
 Hey there! :wave:
 
-I'm Rugved, a passionate Computer Engineering and Deep Learning enthusiast currently pursuing my Masters at New York University (NYU) set to graduate in May 2025.
+I'm Rugved, a passionate Computer Engineer, Deep Learning enthusiast, and a Graduate from New York University.
 
 With a robust background of over two years in DevOps at Oracle and a Bachelor's degree in Electronics Engineering from the University of Mumbai, my journey in technology has been dynamic and invigorating.
 
 I'm excited to share my experiences, insights, and explorations here!
 
-## I'm Currently Studying...
-- [Data Science for Business]({{ site.url }}{{ site.baseurl }}/machine-learning/dsb-course/) from NYU Stern School of Business
-
-## I have previously taught...
+## I'm Currently Teaching...
 - [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/)
 
 ## Here are a few things I have worked on...
