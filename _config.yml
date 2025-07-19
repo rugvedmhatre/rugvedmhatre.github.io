@@ -76,9 +76,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rugvedmhatre"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/rugs_mhatre"
 
 footer:
   links:
@@ -89,8 +86,8 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rugvedmhatre"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/rugs_mhatre"
+      icon: "fab fa-brands fa-x-twitter"
+      url: "https://x.com/rugs_mhatre"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/therugvedmhatre"
