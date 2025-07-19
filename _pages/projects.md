@@ -40,21 +40,47 @@ This project, conducted as part of the NYU Data Science bootcamp, focuses on pre
 [[Checkout the code here...]](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Analysis.ipynb)
 
 
-## Other Projects
-### Machine Learning
-- [Deep Convolutional GAN](https://github.com/rugvedmhatre/Deep-Convolutional-GAN)
+## Other AI Projects
+
+### Vision
+- [Efficient VIT](https://github.com/rugvedmhatre/Efficient-ViT)
+- [SportsFlow](https://github.com/rugvedmhatre/SportsFlow)
 - [Visual Backpropagation](https://github.com/rugvedmhatre/VisualBackProp)
-- [Sentiment Analysis](https://github.com/rugvedmhatre/Sentiment-Analysis)
 - [Vision Transformer Classifier](https://github.com/rugvedmhatre/Vision-Transformers)
 - [Deep Neural Network Classifier](https://github.com/rugvedmhatre/Fashion-MNIST-Classifier)
-- [Support Vector Machine Classifier](https://github.com/rugvedmhatre/SVM-Classifier)
 - [Multilayer Perceptron to classify MNIST dataset in NumPy](https://github.com/rugvedmhatre/handwritten-digit-recognizer/blob/main/Handwritten%20Digit%20Recognizer%20using%20Neural%20Network.ipynb)
 
-### Computer Architecture
+### Model Performance and Profiling
+- [CUDA Kernel Benchmarking](https://github.com/rugvedmhatre/CUDA-Benchmarking)
+- [ResNet Profiling](https://github.com/rugvedmhatre?tab=repositories)
+- [HPC Benchmarking](https://github.com/rugvedmhatre/HPC-Benchmarking)
+
+### NLP
+- [ChatBot Fine-Tuning](https://github.com/rugvedmhatre/ChatBot-Tuning)
+- [Movie Review Sentiment Analysis](https://github.com/rugvedmhatre/movie-review-sentiment-analysis)
+- [Sentiment Analysis](https://github.com/rugvedmhatre/Sentiment-Analysis)
+
+### Generative AI
+- [Deep Convolutional GAN](https://github.com/rugvedmhatre/Deep-Convolutional-GAN)
+
+### Machine Learning/Data Science
+- [RiskLens - Startup Success Predictor](https://github.com/rugvedmhatre/RiskLens-Startup-Success-Predictor)
+- [Churn Predictor](https://github.com/rugvedmhatre/churn-predictor)
+- [Patient No Show Predictor](https://github.com/rugvedmhatre/patient-no-show-predictor)
+- [Graduate Admissions Predictor](https://github.com/rugvedmhatre/graduate-admissions-predictor)
+- [Diabetes Prediction](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Analysis.ipynb)
+- [Support Vector Machine Classifier](https://github.com/rugvedmhatre/SVM-Classifier)
+
+## Other Computer Architecture Projects
+
+### Simulators
 - [Single Cycle MIPS Simulator in C++](https://github.com/rugvedmhatre/MIPS-Simulator)
 - [MIPS 5-Stage Pipeline Simulator in C++](https://github.com/rugvedmhatre/MIPS-Pipeline-Simulator)
 - [Two-Level Cache Simulator in C++](https://github.com/rugvedmhatre/Cache-Simulator)
 - [Virtual Memory Simulator in C++](https://github.com/rugvedmhatre/Virtual-Memory-Simulator)
 - [Branch Predictor Simulator in C++](https://github.com/rugvedmhatre/Branch-Predictor)
 - [Tomasulo's Algorithm Simulator in C++](https://github.com/rugvedmhatre/Tomasulos-Algorithm)
+
+### Applications
 - [Pong Game in x86 Assembly](https://github.com/rugvedmhatre/pong)
+- [Embedded Sentry](https://github.com/rugvedmhatre/Embedded-Sentry)
