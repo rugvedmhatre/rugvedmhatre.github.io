@@ -40,7 +40,7 @@ _Note: This is subject to change_
 
 ### Recognition and Basic Tasks (Data and Architectures)
 - Technical Paper 1: [Segment Anything]({{ site.url }}{{ site.baseurl }}/ai/sam-explained/), Alexander Kirillov et al. ICCV 2023
-- Technical Paper 2: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, Alexey Dosovitsky et al. ICLR 2021
+- Technical Paper 2: [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale]({{ site.url }}{{ site.baseurl }}/ai/vit-explained/), Alexey Dosovitsky et al. ICLR 2021
 - Big Picture Paper: 50 Years of Data Science (Up to Page 18), David Donoho, 2015
 - Reference Papers: 
   - Microsoft COCO: Common Objects in Context
