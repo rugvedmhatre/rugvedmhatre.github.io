@@ -49,7 +49,7 @@ _Note: This is subject to change_
   - Detecting Twenty-thousand Classes using Image-level Supervision
 
 ### Vision and Language Models
-- Technical Paper 1: Flamingo: a Visual Language Model for Few-Shot Learning, Jean-Baptiste Alayrac et al., NeurIPS 2022
+- Technical Paper 1: [Flamingo: a Visual Language Model for Few-Shot Learning]({{ site.url }}{{ site.baseurl }}/ai/flamingo-explained/), Jean-Baptiste Alayrac et al., NeurIPS 2022
 - Technical Paper 2: Visual Instruction Tuning, Haotian Liu et al. NeurIPS 2023
 - Big Picture Paper: Scaling Laws for Neural Language Models, Jared Kaplan et al., 2020
 - Reference Papers: 
