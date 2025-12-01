@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rugved Mhatre
-tagline: "Rugved Mhatre | Deep Learning, ML, Computer Architecture, DevOps | NYU, Oracle"
+tagline: "Rugved Mhatre | SDE at AWS, shaped by NYU, driven by ML and systems"
 email: rugved.mhatre+web@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  "Explore Rugved Mhatre's portfolio showcasing advanced projects in Deep Learning, Machine Learning, and Computer Architecture. Gain insights from his Master's experience at NYU, and discover innovative research and practical applications in the field of AI and technology. Dive into a journey of academic excellence and cutting-edge technological advancements."
+  Explore Rugved Mhatre's portfolio featuring projects in Deep Learning, Machine Learning, and Computer Architecture. Drawing from his NYU background and his work as a Software Development Engineer at AWS, he shares practical insights, real-world engineering experiences, and research shaping modern AI and scalable ML systems.
 url: "https://rugvedmhatre.github.io"
 twitter_username: rugs_mhatre
 github_username: rugvedmhatre
@@ -32,7 +32,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -62,9 +62,11 @@ plugins:
 author:
   name   : "Rugved Mhatre"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "MS. Computer Engineering @NYU Ex-Oracle"
+  bio    : >- 
+    SDE @Annapurna Labs (AWS)
+    Master's in Computer Eng. @NYU
   links:
-    - label: "New York City"
+    - label: "Austin, TX"
       icon: "fas fa-fw fa-map-marker-alt"
       url: ""
     - label: "Email"

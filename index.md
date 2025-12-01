@@ -8,13 +8,13 @@ author_profile: true
 
 Hey there! :wave:
 
-I'm Rugved, a passionate Computer Engineer, Deep Learning enthusiast, and a Graduate from New York University.
+I'm Rugved, a passionate Computer Engineer, Deep Learning enthusiast, and a New York University graduate passionate about building high-performance, scalable systems. I'm currently working as a Software Development Engineer at Annapurna Labs (AWS), where I help manage the ML Accelerator Fleet.
 
-With a robust background of over two years in DevOps at Oracle and a Bachelor's degree in Electronics Engineering from the University of Mumbai, my journey in technology has been dynamic and invigorating.
+With over two years in DevOps at Oracle and a Bachelor's degree in Electronics Engineering from the University of Mumbai, my journey in technology has been dynamic and invigorating - spanning across cloud infrastructure, machine learning, system optimization and hardware-software co-design.
 
 I'm excited to share my experiences, insights, and explorations here!
 
-## I'm Currently Teaching...
+## I've previously taught...
 - [NYU K12 STEM Education - Machine Learning]({{ site.url }}{{ site.baseurl }}/machine-learning-summer/)
 
 ## Here are a few things I have worked on...
